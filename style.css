@@ -1,4 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("fonts/IRANSansWeb\(FaNum\)_Medium.woff");
+}
+
 body {
     background-image: url(images/background.jpg);
     background-size: cover;
+    font-size: 18px;
+    font-family: myFont;
+}
+
+.navbar {
+    height: 40px;
+    width: auto;
+    background-color: rgba(2, 106, 167, .70);
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 1px 2px 2px darkgrey;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.list {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+    background-color: #e9e9e9;
+    opacity: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.list-title {
+    opacity: 90%;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.list-item {
+    background-color: lightgrey;
+    opacity: 80%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 5px;
 }
